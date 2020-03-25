@@ -8,7 +8,7 @@ before_script:
   - npm install qunit
   - npm install request
 SCRIPT:
-  - CD back/
-  - MVN INSTALL
-  - CD ../front
+  - cd back/
+  - mvn INSTALL
+  - cd ../front
   - qunit  'tests/test_connection_servers.js'
