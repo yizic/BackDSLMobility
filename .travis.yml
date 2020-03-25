@@ -1,3 +1,7 @@
-language: java
-sudo: false
-script: mvn clean verify
+langage: java
+
+os: linux
+
+https://docs.travis-ci.com/user/languages/java/
+mvn test -B
+
