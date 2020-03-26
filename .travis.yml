@@ -11,4 +11,3 @@ SCRIPT:
   - cd back/
   - mvn INSTALL
   - cd ../front
-  - qunit  'tests/test_connection_servers.js'
